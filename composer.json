@@ -1,0 +1,44 @@
+{
+	"name": "samils/klass-props",
+	"version": "1.0.1",
+	"description": "SAML",
+  "type": "library",
+	"license": "MIT",
+  "minimum-stability": "dev",
+	"keywords": [],
+	"autoload": {
+		"psr-4": {
+      "Sammy\\": "Sammy/",
+      "Application\\Klass\\": "Application/Klass/"
+    },
+		"psr-0": {
+      "Sammy\\": "Sammy/",
+      "Application\\Klass\\": "Application/Klass/"
+    },
+		"classmap": [
+      "src/"
+		],
+		"files": [
+			"autoload.php"
+		]
+	},
+  "homepage": "https://github.com/samils/klass-props",
+  "readme": "./README.md",
+  "authors": [
+    {
+      "name": "Agostinho Lopes",
+      "email": "agostinhosaml832@gmail.com",
+      "homepage": "https://agostinhosamil.github.io",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "base.samils@gmail.com",
+    "issues": "https://github.com/samils/klass-props/issues",
+    "wiki": "https://github.com/samils/klass-props/wiki"
+  },
+	"require": {
+		"php": ">=5.6.20",
+    "samils/application-server-error-handler": "dev-main"
+	}
+}
