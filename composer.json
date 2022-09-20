@@ -5,7 +5,11 @@
   "type": "library",
 	"license": "MIT",
   "minimum-stability": "dev",
-	"keywords": [],
+	"keywords": [
+    "klass",
+    "class props",
+    "class properties"
+  ],
 	"autoload": {
 		"psr-4": {
       "Sammy\\": "Sammy/",
@@ -38,7 +42,6 @@
     "wiki": "https://github.com/samils/klass-props/wiki"
   },
 	"require": {
-		"php": ">=5.6.20",
-    "samils/application-server-error-handler": "dev-main"
+		"php": ">=5.6.20"
 	}
 }
